@@ -52,7 +52,7 @@ This is the instalation method using packages
         + Insert a record
         ```SQL 
         INSERT INTO table_name (
-            col_nameyour_db
+            col_name
         ) VALUE ('value');
         ```
     + Retrieve
@@ -74,6 +74,9 @@ This is the instalation method using packages
         DELETE FROM table_name (WHERE ...);
         ```
         + Table
+        ```SQL
+        DROP TABLE table_name;
+        ```
         + Database
         ```SQL
         DROP DATABASE database_name;
@@ -81,7 +84,6 @@ This is the instalation method using packages
 2. Code: Python
     + Libraries Usage
     + Data Access Object (DAO)
-    + ORM
     + Example: https://github.com/hieuduy6098/sqliteAccessLib
 
 # QUESTIONS
